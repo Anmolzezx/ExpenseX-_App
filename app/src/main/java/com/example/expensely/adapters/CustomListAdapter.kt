@@ -13,6 +13,7 @@ class CustomListAdapter(val fragment:Fragment, private val customList:List<Strin
             val title=itemView.tvText
 
     }
+    //hello
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
         val binding=ItemCustomDilogBinding.inflate(LayoutInflater.from(fragment.requireContext()),parent,false)
